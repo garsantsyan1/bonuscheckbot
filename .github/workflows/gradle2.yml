@@ -1,0 +1,20 @@
+name: build
+on:
+  push:
+    branches:
+      - main  # или другая ветка
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up JDK 21
+        uses: actions/setup-java@v3
+        with:
+          java-version: '21'
+          distribution: 'temurin' # Рекомендую Temurin, он более стабилен
+      - name: Build with Gradle
+        uses: gradle/gradle-build-action@v2
+        with:
+          arguments: build # можно добавить clean build test, если нужно
