@@ -1,2 +1,2 @@
-rootProject.name = "cashbackBot"
+rootProject.name = "bonuscheckbot"
 
