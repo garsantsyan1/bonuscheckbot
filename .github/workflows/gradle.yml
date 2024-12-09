@@ -1,9 +1,6 @@
 name: build
 on:
-  push:
-    branches:
-      - main  # или другая ветка
-
+  - push
 jobs:
   build:
     runs-on: ubuntu-latest
