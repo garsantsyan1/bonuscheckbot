@@ -1,0 +1,58 @@
+
+1. Admin (Заказчики):
+
+•  admin_id (INT, PRIMARY KEY, AUTO_INCREMENT)
+•  first_name (VARCHAR(255))
+•  last_name (VARCHAR(255))
+•  payment_details (TEXT)
+•  strategy_id (INT, FOREIGN KEY referencing Strategy(strategy_id))
+•  telegram_id (VARCHAR(255))
+
+
+2. Seller (Продавцы):
+
+•  seller_id (INT, PRIMARY KEY, AUTO_INCREMENT)
+•  admin_id (INT, FOREIGN KEY referencing Users(user_id))
+•  first_name (VARCHAR(255))
+•  last_name (VARCHAR(255))
+
+
+3. Strategy (Стратегии выплаты бонусов):
+
+•  strategy_id (INT, PRIMARY KEY, AUTO_INCREMENT)
+•  strategy_type (ENUM('weekly', 'monthly', 'per_check', 'hybrid'))
+•  plan_threshold (DECIMAL(10, 2))
+•  bonus_per_check (DECIMAL(10, 2))
+•  monthly_bonus_threshold (INT)
+•  monthly_bonus_amount (DECIMAL(10,2))
+
+
+4. Check (Чеки):
+
+•  check_id (INT, PRIMARY KEY, AUTO_INCREMENT)
+•  seller_id (INT, FOREIGN KEY referencing Seller(seller_id))
+•  check_date (TIMESTAMP)
+•  qr_code_data (TEXT)
+•  product_quantity (INT)
+•  is_returned (BOOLEAN)
+•  return_date (TIMESTAMP)
+•  product_id (INT, FOREIGN KEY referencing Products(product_id))
+•  bonus_amount DECIMAL(10, 2),
+•  is_bonus_paid BOOLEAN
+
+5. Product (Товары):
+
+•  product_id (INT, PRIMARY KEY, AUTO_INCREMENT)
+•  product_name (VARCHAR(255), UNIQUE) — Уникальное название товара.
+•  description (TEXT) — Описание товара (опционально).
+•  price (DECIMAL(10, 2))
+
+
+Связи:
+
+•  One-to-many: Users — Salers
+•  One-to-many: Users — UserStrategies
+•  One-to-many: Salers — Checks
+•  One-to-many: Checks — Bonuses
+•  One-to-many: Products — Checks (один товар может быть в нескольких чеках)
+
