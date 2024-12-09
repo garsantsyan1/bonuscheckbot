@@ -11,9 +11,9 @@ jobs:
         with:
           java-version: '21'
           distribution: 'temurin' # Рекомендую Temurin, он более стабилен
-      - name: Make gradlew executable
-        run: chmod +x ./gradlew
       - name: Build with Gradle
         uses: gradle/gradle-build-action@v2
         with:
+          gradle-version: 8.8  # Замените на вашу версию из gradle-wrapper.properties
           arguments: build # можно добавить clean build test, если нужно
+
