@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61f94d85-0bea-49ea-9325-0b61dfbf5919" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/gradle.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/documentation/BusinessRequirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+    <list default="true" id="9bd6d6a1-55d4-4a98-b9a6-8d52268269cb" name="Changes" comment="create db.txt">
+      <change afterPath="$PROJECT_DIR$/documentation/fnsOpenApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,52 +53,45 @@
     </system>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Shaikhutdinova"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Shaikhutdinova&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/garsantsyan1/bonuscheckbot.git",
-    "accountId": "eecfb8fb-13c9-4605-baa8-ea79b09f67ba"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/garsantsyan1/bonuscheckbot.git&quot;,
+    &quot;accountId&quot;: &quot;eecfb8fb-13c9-4605-baa8-ea79b09f67ba&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
-  <component name="ProjectId" id="2pygYAMqLtLkvjtTZ6EddAEJlfP" />
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2pyfvCOVuvbrTGND93eLwnhy58t" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build temp.executor": "Run",
-    "Gradle.temp [build].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.bonusCheckApplication.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/dev/cashback_bot/bonuscheckbot/temp",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.bonuscheckbot [build].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/dev/cashback_bot/bonuscheckbot&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\dev\cashback_bot\bonuscheckbot\temp" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Spring Boot.bonusCheckApplication">
-    <configuration name="temp [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+}</component>
+  <component name="RunManager" selected="Gradle.bonuscheckbot [build]">
+    <configuration name="bonuscheckbot [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -123,19 +113,6 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="temp" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="temp" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="bonusCheckApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="bonuscheckbot.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.twominds.bonuscheck.bonusCheckApplication" />
@@ -145,7 +122,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.temp [build]" />
+        <item itemvalue="Gradle.bonuscheckbot [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -160,16 +137,103 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="61f94d85-0bea-49ea-9325-0b61dfbf5919" name="Changes" comment="" />
-      <created>1733743775043</created>
+      <changelist id="9bd6d6a1-55d4-4a98-b9a6-8d52268269cb" name="Changes" comment="" />
+      <created>1733743465422</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1733743775043</updated>
-      <workItem from="1733743776074" duration="255000" />
+      <updated>1733743465422</updated>
+      <workItem from="1733743466539" duration="39000" />
+      <workItem from="1733743651095" duration="8464000" />
+      <workItem from="1733892355752" duration="1933000" />
     </task>
+    <task id="LOCAL-00001" summary="gradle kotlin -&gt; groovy">
+      <option name="closed" value="true" />
+      <created>1733744563662</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733744563662</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix gradle.yml">
+      <option name="closed" value="true" />
+      <created>1733744840766</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733744840766</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test CI">
+      <option name="closed" value="true" />
+      <created>1733744885550</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733744885550</updated>
+    </task>
+    <task id="LOCAL-00004" summary="delete ci">
+      <option name="closed" value="true" />
+      <created>1733745043209</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733745043209</updated>
+    </task>
+    <task id="LOCAL-00005" summary="delete all ci files">
+      <option name="closed" value="true" />
+      <created>1733745088834</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733745088835</updated>
+    </task>
+    <task id="LOCAL-00006" summary=".">
+      <option name="closed" value="true" />
+      <created>1733745318575</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733745318575</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix gradle.yml again">
+      <option name="closed" value="true" />
+      <created>1733745551398</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733745551398</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix gradle.yml again2">
+      <option name="closed" value="true" />
+      <created>1733746043096</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1733746043096</updated>
+    </task>
+    <task id="LOCAL-00009" summary="create db.txt">
+      <option name="closed" value="true" />
+      <created>1733767101072</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1733767101072</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="gradle kotlin -&gt; groovy" />
+    <MESSAGE value="fix gradle.yml" />
+    <MESSAGE value="test CI" />
+    <MESSAGE value="delete ci" />
+    <MESSAGE value="delete all ci files" />
+    <MESSAGE value="." />
+    <MESSAGE value="fix gradle.yml again" />
+    <MESSAGE value="fix gradle.yml again2" />
+    <MESSAGE value="create db.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="create db.txt" />
   </component>
 </project>
