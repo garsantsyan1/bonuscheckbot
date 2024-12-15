@@ -4,12 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bd6d6a1-55d4-4a98-b9a6-8d52268269cb" name="Changes" comment="create db.txt">
-      <change afterPath="$PROJECT_DIR$/documentation/fnsOpenApi.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="61f94d85-0bea-49ea-9325-0b61dfbf5919" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/database/mySqlDbCreationScript.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/documentation/proverkaChekaApi.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/twominds/bonuscheck/core/config/BonusCheckBotConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/twominds/bonuscheck/core/domian/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/twominds/bonuscheck/core/domian/Check.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/twominds/bonuscheck/core/domian/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/twominds/bonuscheck/core/domian/Seller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/twominds/bonuscheck/core/domian/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/twominds/bonuscheck/core/domian/StrategyType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/twominds/bonuscheck/core/repositories/AdminRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/twominds/bonuscheck/core/repositories/CheckRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/twominds/bonuscheck/core/repositories/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/twominds/bonuscheck/core/repositories/SellerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/twominds/bonuscheck/core/repositories/StrategyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/twominds/bonuscheck/core/services/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/twominds/bonuscheck/core/services/SellerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/twominds/bonuscheck/core/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/twominds/bonuscheck/telegramBot/BonusCheckBot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/db.txt" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/db.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,17 +50,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="bonuscheckbot" type="f1a62948:ProjectNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="bonuscheckbot" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="bonuscheckbot" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -53,7 +58,13 @@
     </system>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -68,30 +79,47 @@
   }
 }</component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
+  &quot;associatedIndex&quot;: 1
 }</component>
-  <component name="ProjectId" id="2pyfvCOVuvbrTGND93eLwnhy58t" />
+  <component name="ProjectId" id="2pygYAMqLtLkvjtTZ6EddAEJlfP" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.bonuscheckbot [build].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/dev/cashback_bot/bonuscheckbot&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build temp.executor": "Run",
+    "Gradle.temp [build].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.bonusCheckApplication.executor": "Run",
+    "git-widget-placeholder": "feature/db-refactor-entities-repos",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Мартин/OneDrive/Рабочий стол/bonuscheckbot/src/main/java/org/twominds/bonuscheck",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Gradle.bonuscheckbot [build]">
-    <configuration name="bonuscheckbot [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Мартин\OneDrive\Рабочий стол\bonuscheckbot\src\main\java\org\twominds\bonuscheck" />
+      <recent name="C:\Users\Мартин\OneDrive\Рабочий стол\bonuscheckbot\src\main\java\org\twominds\bonuscheck\core" />
+      <recent name="C:\Users\Мартин\OneDrive\Рабочий стол\bonuscheckbot" />
+      <recent name="C:\Users\Мартин\OneDrive\Рабочий стол\bonuscheckbot\documentation" />
+      <recent name="C:\dev\cashback_bot\bonuscheckbot\temp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Мартин\OneDrive\Рабочий стол\bonuscheckbot\documentation" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.bonusCheckApplication">
+    <configuration name="temp [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -113,6 +141,19 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="temp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="temp" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="bonusCheckApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="bonuscheckbot.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.twominds.bonuscheck.bonusCheckApplication" />
@@ -122,118 +163,58 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.bonuscheckbot [build]" />
+        <item itemvalue="Gradle.temp [build]" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.419" />
-        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.419" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
       </set>
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9bd6d6a1-55d4-4a98-b9a6-8d52268269cb" name="Changes" comment="" />
-      <created>1733743465422</created>
+      <changelist id="61f94d85-0bea-49ea-9325-0b61dfbf5919" name="Changes" comment="" />
+      <created>1733743775043</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1733743465422</updated>
-      <workItem from="1733743466539" duration="39000" />
-      <workItem from="1733743651095" duration="8464000" />
-      <workItem from="1733892355752" duration="1933000" />
+      <updated>1733743775043</updated>
+      <workItem from="1733743776074" duration="255000" />
+      <workItem from="1734040008092" duration="4415000" />
+      <workItem from="1734082726836" duration="1575000" />
+      <workItem from="1734105803381" duration="821000" />
+      <workItem from="1734295971769" duration="917000" />
     </task>
-    <task id="LOCAL-00001" summary="gradle kotlin -&gt; groovy">
-      <option name="closed" value="true" />
-      <created>1733744563662</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1733744563662</updated>
-    </task>
-    <task id="LOCAL-00002" summary="fix gradle.yml">
-      <option name="closed" value="true" />
-      <created>1733744840766</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1733744840766</updated>
-    </task>
-    <task id="LOCAL-00003" summary="test CI">
-      <option name="closed" value="true" />
-      <created>1733744885550</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1733744885550</updated>
-    </task>
-    <task id="LOCAL-00004" summary="delete ci">
-      <option name="closed" value="true" />
-      <created>1733745043209</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1733745043209</updated>
-    </task>
-    <task id="LOCAL-00005" summary="delete all ci files">
-      <option name="closed" value="true" />
-      <created>1733745088834</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1733745088835</updated>
-    </task>
-    <task id="LOCAL-00006" summary=".">
-      <option name="closed" value="true" />
-      <created>1733745318575</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1733745318575</updated>
-    </task>
-    <task id="LOCAL-00007" summary="fix gradle.yml again">
-      <option name="closed" value="true" />
-      <created>1733745551398</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1733745551398</updated>
-    </task>
-    <task id="LOCAL-00008" summary="fix gradle.yml again2">
-      <option name="closed" value="true" />
-      <created>1733746043096</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1733746043096</updated>
-    </task>
-    <task id="LOCAL-00009" summary="create db.txt">
-      <option name="closed" value="true" />
-      <created>1733767101072</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1733767101072</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="gradle kotlin -&gt; groovy" />
-    <MESSAGE value="fix gradle.yml" />
-    <MESSAGE value="test CI" />
-    <MESSAGE value="delete ci" />
-    <MESSAGE value="delete all ci files" />
-    <MESSAGE value="." />
-    <MESSAGE value="fix gradle.yml again" />
-    <MESSAGE value="fix gradle.yml again2" />
-    <MESSAGE value="create db.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="create db.txt" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="feature/db-refactor-entities-repos" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
