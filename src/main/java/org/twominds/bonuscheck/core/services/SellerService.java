@@ -26,5 +26,17 @@ public class SellerService {
         return sellerRepository.findByTelegramId(telegramId)
                 .orElseThrow(() -> new IllegalArgumentException("Пользователь не найден."));
     }
+
+
+    public String getSellerPhoneNumber(Long chatId) {
+        return sellerRepository.findByTelegramId(chatId)
+                .map(Seller::getPhoneNumber)
+                .orElse("неизвестно");
+    }
+
+    public boolean isSellerRegistered(Long chatId) {
+        // Логика проверки в базе данных или другом хранилище
+        return sellerRepository.existsByTelegramId(chatId);
+    }
 }
 
