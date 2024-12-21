@@ -6,6 +6,8 @@ import org.springframework.stereotype.Service;
 import org.twominds.bonuscheck.core.domian.Seller;
 import org.twominds.bonuscheck.core.repositories.SellerRepository;
 
+import java.math.BigDecimal;
+
 @Service
 @RequiredArgsConstructor
 public class SellerService {
@@ -37,6 +39,12 @@ public class SellerService {
     public boolean isSellerRegistered(Long chatId) {
         // Логика проверки в базе данных или другом хранилище
         return sellerRepository.existsByTelegramId(chatId);
+    }
+
+    public BigDecimal getSellerBalance(Long chatId) {
+        return sellerRepository.findByTelegramId(chatId)
+                .map(Seller::getBalance)
+                .orElse(BigDecimal.ZERO); // Если продавец не найден, возвращаем 0
     }
 }
 

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Scanner</title>
+    <script src="https://unpkg.com/html5-qrcode"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        #reader {
+            width: 300px;
+            margin: auto;
+            position: relative;
+        }
+        #reader video {
+            filter: brightness(1.2) contrast(1.3);
+            width: 100%;
+        }
+        #result {
+            margin-top: 20px;
+            font-size: 1.2em;
+            color: green;
+        }
+        .scan-area {
+            position: absolute;
+            top: 25%;
+            left: 25%;
+            width: 50%;
+            height: 50%;
+            border: 2px solid green;
+            box-shadow: 0 0 10px green;
+            z-index: 2;
+        }
+    </style>
+</head>
+<body>
+<h1>Сканер QR-кодов</h1>
+<div id="reader">
+    <div class="scan-area"></div>
+</div>
+<div id="result">Результат будет отображен здесь</div>
+
+<script>
+    function onScanSuccess(decodedText, decodedResult) {
+        document.getElementById("result").innerText = `QR-код: ${decodedText}`;
+        alert(`QR-код успешно найден: ${decodedText}`);
+    }
+
+    function onScanFailure(error) {
+        console.warn(`Ошибка сканирования: ${error}`);
+    }
+
+    const qrScanner = new Html5QrcodeScanner(
+        "reader",
+        {
+            fps: 30,
+            qrbox: { width: 250, height: 250 },
+        },
+        false
+    );
+    qrScanner.render(onScanSuccess, onScanFailure);
+</script>
+</body>
+</html>
